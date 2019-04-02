@@ -26,3 +26,4 @@ All of the code is written in HTML, CSS, and JavaScript.
 
 ## URL of the published site:
 
+https://frannyaimee.github.io/Serious-Business/
