@@ -68,7 +68,7 @@ td {
 	transition: all 0.2s;
 }
 .button:hover {
-	 background-color:#4095c6;
+	background-color:#4095c6;
 }
 #txt {
 	font-size: 70px;
@@ -86,5 +86,20 @@ td {
 	.outer {grid-template-columns: 1fr;
 		align-content: center;
 		display: grid;
+	}
+	h1 {
+		font-size: 400%;
+	}
+	#txt {
+		font-size: 40px;
+	}
+	.button {
+		font-size: 25px;
+	}
+	#clock {
+		padding-top: 25px;
+	}
+	#extra {
+    margin-top: 15px;
 	}
 }
