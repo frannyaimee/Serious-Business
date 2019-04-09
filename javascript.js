@@ -3,7 +3,7 @@ function checkOpenStatus () {
     var d = new Date();
     var date = d.getHours();
     var day = d.getDay();
-    if ((date > 8.9) && (date < 17.0) && (day != 0) && (day != 6)) {
+    if (date > 8.9 && date < 17 && day != 0) {
         y = "<span style=\"color:black\">Come in, we're awesome!</span>";
     } else {
         y = "<span style=\"color:#fc4b1c\">Sorry we're closed.</span>";
@@ -42,6 +42,7 @@ document.getElementById("button").addEventListener("click", function() {
     var nm = ndate.getMinutes();
     var ns = ndate.getSeconds();
     var current = nh + ":" + nm;
+    document.getElementById("open-close").innerHTML = "Sorry, we're closed";
     nh = checkTime(nh);
     nm = checkTime(nm);
     ns =checkTime(ns);
